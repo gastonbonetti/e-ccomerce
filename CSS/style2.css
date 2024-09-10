@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.registro{
+    background-color: black;
+    word-spacing: 12px;
+    height: 2.8vh;
+    padding: 2px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.estilologin{
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    padding: 5px;
+    position: sticky;
+}
+
+h1, .snkrs{
+    font-size: 50px;
+    -webkit-text-stroke: 0.6px black;
+    font-family: 'Alfa Slab One', cursive;
+    stroke: black;
+    color: red;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.buscador1{
+    align-items: center;
+    margin-left: 40px;
+    display: flex;
+    border: 1px solid grey;
+    width: 500px;
+    border-radius: 24px;
+    height: 36px;
+    margin: 0 auto;
+}
+
+.buscador1{
+    box-shadow: 0 1px 6px 0 rgba(32, 32, 36, 0.28);
+    border-color: rgba(233, 225, 229, 0);
+}
+
+.buscador{
+        background: #fff;
+        background: transparent;
+        border: grey;
+        color: rgba(0,0,0,.87);
+        padding-left: 13px;
+        display: flex;
+        flex: 100%;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    margin: 40px;
+    
+}
+.submenu{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+    
+}
+
+.estilonav{
+    text-decoration: none;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+a:hover{
+    color: grey;
+}
+
+
+body{
+    background-color: white;
+}
+
+footer{
+    background-color: grey;
+}
+
+.categorias{
+    background-color: rgb(231, 231, 231);;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: red;
+}
+
+.filtros{
+    /*border-top: 2px grey ;*/
+    border-right: 2px grey solid;
+    background-color: rgb(231, 231, 231);
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    padding: 10px 200px 10px 10px;
+}
+
+
+
+li{
+    list-style: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+.listas{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+}
+.tarjetapadre{
+    display: grid;
+    padding-bottom: 10px;
+    grid-template-columns: repeat(4, 380px);
+}
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column-start: 2;
+    height: 380px;
+    width: 335px;
+    border: 1px solid grey;
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    padding-top: 20px;
+    margin: 10px;
+    /* font-weight: 800; */
+    /* color: black; */
+}
+
+.imgTarjetas{
+    width: 100%;
+    height: 240px;
+}
+
+.p1{
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.p2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: rgb(255, 0, 0);
+}
+
+.botoncarrito{
+    border: none;
+    background: #09ae85;
+    border-radius: 50px;
+    /* border-color: royalblue; */
+    width: 60%;
+    padding: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+}
+
+main{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.caja1{
+    grid-column-start: 2;
+}
+
+.redes{
+    display: inline;
+}
+.ulRedes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    display: inline;
+}
+.iconoRedes{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 20px;
+    align-self: center;
+}
+
+.textoRedes{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.textoRedes:hover{
+    color: white;
+}
+
+p{
+    font-weight: 600;
+    margin-left: 20px;
+}
